@@ -27,4 +27,5 @@ vim +PluginInstall +qall
 
 echo "# Installing Vim plugins customizations"
 echo "# - MatchTag custom filetypes"
-cp -vi bundle/MatchTag/ftplugin/* $YUPATH/bundle/MatchTag/ftplugin/
+FTPATH="$YUPATH/bundle/MatchTag/ftplugin"
+test -d "$FTPATH" || mkdir -p "$FTPATH" && cp -vi bundle/MatchTag/ftplugin/* "$FTPATH"

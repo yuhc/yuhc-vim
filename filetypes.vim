@@ -1,11 +1,11 @@
 "##############################################################"
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker :
 "
-" DD Vim Configuration
+" Vim Configuration
 "
-" Danilo Dellaquila K-Gigas Computers S.L.
+" Hangchen YU
 "
-" This is the personal Vim configuration of Danilo Dellaquila.
+" This is the personal Vim configuration of Hangchen YU.
 "
 " File: filetype.vim
 "
@@ -22,6 +22,12 @@ augroup filetypedetect
   au! BufRead,BufNewFile *.md       setfiletype markdown
   au! BufRead,BufNewFile *.wiki     setfiletype moin
   "au! BufNewFile,BufRead *.wiki     setfiletype Wikipedia
+augroup END
+
+" C Language
+augroup project
+    autocmd!
+    autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
 augroup END
 
 autocmd FileType html  set tabstop=2|set shiftwidth=2

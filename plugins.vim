@@ -1,11 +1,11 @@
 "##############################################################"
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker :
 "
-" DD Vim Configuration
+" Vim Configuration
 "
-" Danilo Dellaquila K-Gigas Computers S.L.
+" Hangchen YU
 "
-" This is the personal Vim configuration of Danilo Dellaquila.
+" This is the personal Vim configuration of Hangchen YU.
 "
 " File: plugins.vim
 "
@@ -35,6 +35,9 @@
     Plugin 'tomtom/tlib_vim'
     Plugin 'garbas/vim-snipmate'
     Plugin 'honza/vim-snippets'
+
+    " Coding
+    Plugin 'junegunn/vim-easy-align'
 
     " C/C++
     Plugin 'Valloric/YouCompleteMe'

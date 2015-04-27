@@ -1,11 +1,11 @@
 "##############################################################"
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker :
 "
-" DD Vim Configuration
+" Vim Configuration
 "
-" Danilo Dellaquila K-Gigas Computers S.L.
+" Hangchen YU
 "
-" This is the personal Vim configuration of Danilo Dellaquila.
+" This is the personal Vim configuration of Hangchen YU.
 "
 " File: mappings.vim
 "
@@ -65,6 +65,12 @@
     """ Reformat text
     map <Leader>f gq}
     map <Leader>F gqG
+
+    " Reformat codes
+    """ Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+    vmap <Enter> <Plug>(EasyAlign)
+    """ Start interactive EasyAlign for a motion/text object (e.g. gaip)
+    nmap ga <Plug>(EasyAlign)
 
 " }
 

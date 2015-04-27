@@ -1,11 +1,11 @@
 "##############################################################"
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker :
 "
-" DD Vim Configuration
+" Vim Configuration
 "
-" Danilo Dellaquila - K-Gigas Computers S.L.
+" Hangchen YU
 "
-" This is the personal Vim configuration of Danilo Dellaquila.
+" This is the personal Vim configuration of Hangchen YU.
 "
 " File: abbreviations.vim
 "
