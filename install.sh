@@ -10,11 +10,10 @@ done
 
 echo "# Installing yuhc-vim in $HOME directory"
 mkdir -p $YUPATH
-cp -vi vimrc $YUPATH
-cp -vi gvimrc $YUPATH
+cp -vi .vimrc $YUPATH
+cp -vi .gvimrc $YUPATH
 cp -vi *.vim $YUPATH
 cp -avi colors $YUPATH
-cp -vi version.txt $YUPATH
 
 ln -vs $YUPATH $HOME/.vim
 ln -vs $YUPATH/vimrc $HOME/.vimrc
