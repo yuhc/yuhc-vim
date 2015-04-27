@@ -27,6 +27,8 @@ vim +PluginInstall +qall
 
 echo "# Installing Vim plugins customizations"
 $YUPATH/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
+YCMPATH="$YUPATH/bundle/YouCompleteMe"
+test -d "$YCMPATH" || mkdir -p "$YCMPATH" && cp -vi bundle/YouCompleteMe/* "$YCMPATH"
 
 echo "# - MatchTag custom filetypes"
 FTPATH="$YUPATH/bundle/MatchTag/ftplugin"

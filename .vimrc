@@ -63,7 +63,7 @@
 
     " }
 
-" }
+" }tt
 
 " Formatting {
 
@@ -101,6 +101,9 @@
     " Include Library
     let &path.="src/include,/usr/include/AL,"
     set includeexpr=substitute(v:fname,'\\.','/','g')
+
+    " YouCompleteMe
+    let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
 
 " }
 
