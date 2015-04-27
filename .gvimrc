@@ -17,11 +17,14 @@
 " Dark schemes
 "colorscheme spiderwebdark
 "colorscheme hybrid
+"colorscheme codeschool
 "set background=dark
 
 " Light schemes
 "colorscheme default
 "colorscheme spiderweblight
+"colorscheme solarized
+"colorscheme summerfruit256
 colorscheme pyte
 set background=light
 
