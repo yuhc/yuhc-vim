@@ -3,3 +3,4 @@
 *.swo
 # Distribution folder
 dist
+.DS_Store

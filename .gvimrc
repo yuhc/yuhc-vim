@@ -14,11 +14,16 @@
 "##############################################################"
 
 " Color Scheme and Background
-colorscheme default
-"colorscheme spiderweblight
-set background=light
+" Dark schemes
 "colorscheme spiderwebdark
+"colorscheme hybrid
 "set background=dark
+
+" Light schemes
+"colorscheme default
+"colorscheme spiderweblight
+colorscheme pyte
+set background=light
 
 " Enable mouse in a windows
 set mouse=a
