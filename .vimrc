@@ -1,11 +1,11 @@
 "##############################################################"
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker :
 "
-" DD Vim Configuration
+" Vim Configuration
 "
-" Danilo Dellaquila K-Gigas Computers S.L.
+" Hangchen YU
 "
-" This is the personal Vim configuration of Danilo Dellaquila.
+" This is the personal Vim configuration of Hangchen YU.
 "
 " File: vimrc
 "
@@ -16,12 +16,16 @@
     " We use Vim settings
     set nocompatible        " Must be the first line
 
-    " Set DD Vim Configuration path
+    " Load external settings
+    set exrc
+    set secure
+
+    " Set Yuhc Vim Configuration path
     let $YUPATH=$HOME."/.yuhc-vim"
     " Uncomment the next 4 lines if you use GVim in Windows
     "if has('gui_running')
-    "    " Set DD Vim Configuration path
-    "    let $YUPATH="H:\.yuhc-vim"
+    "    " Set Yuhc Vim Configuration path
+    "    let $YUPATH="D:\.yuhc-vim"
     "endif
 
     " Disable backup
@@ -47,8 +51,8 @@
         set rtp+=$YUPATH/bundle/Vundle.vim
         " Uncomment this if you use GVim in Windows
         "if has('gui_running')
-        "    set rtp+=H:\.yuhc-vim\bundle\Vundle.vim
-        "    let path='H:\.yuhc-vim\bundle'
+        "    set rtp+=D:\.yuhc-vim\bundle\Vundle.vim
+        "    let path='D:\.yuhc-vim\bundle'
         "    call vundle#begin(path)
         "else
             call vundle#begin()
@@ -65,6 +69,8 @@
 
     " Set maximum width of text line
     set textwidth=72
+    set colorcolumn=110
+    highlight ColorColumn ctermbg=darkgray
 
     " Tabs settings
     set expandtab
@@ -91,6 +97,10 @@
 
     " Syntax
     syntax on
+
+    " Include Library
+    let &path.="src/include,/usr/include/AL,"
+    set includeexpr=substitute(v:fname,'\\.','/','g')
 
 " }
 
