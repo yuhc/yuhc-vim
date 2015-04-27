@@ -1,0 +1,5 @@
+# Vi
+*.swp
+*.swo
+# Distribution folder
+dist
