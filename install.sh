@@ -26,6 +26,7 @@ echo "# Installing Vim plugins using Vundle"
 vim +PluginInstall +qall
 
 echo "# Installing Vim plugins customizations"
+echo "# - YouCompleteMe"
 $YUPATH/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
 YCMPATH="$YUPATH/bundle/YouCompleteMe"
 test -d "$YCMPATH" || mkdir -p "$YCMPATH" && cp -vi bundle/YouCompleteMe/* "$YCMPATH"
@@ -33,3 +34,9 @@ test -d "$YCMPATH" || mkdir -p "$YCMPATH" && cp -vi bundle/YouCompleteMe/* "$YCM
 echo "# - MatchTag custom filetypes"
 FTPATH="$YUPATH/bundle/MatchTag/ftplugin"
 test -d "$FTPATH" || mkdir -p "$FTPATH" && cp -vi bundle/MatchTag/ftplugin/* "$FTPATH"
+
+echo "# - the_silver_searcher"
+$YUPATH/bundle/the_silver_searcher/build.sh
+cd $YUPATH/bundle/the_silver_searcher
+make install
+cd $YUPATH
