@@ -39,6 +39,7 @@
     " Coding
     Plugin 'junegunn/vim-easy-align'
     Plugin 'ggreer/the_silver_searcher'
+    Plugin 'scrooloose/nerdcommenter'
 
     " C/C++
     Plugin 'Valloric/YouCompleteMe'
