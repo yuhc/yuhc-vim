@@ -40,3 +40,8 @@ $YUPATH/bundle/the_silver_searcher/build.sh
 cd $YUPATH/bundle/the_silver_searcher
 make install
 cd $YUPATH
+
+echo "# - c-support (c.vim)"
+CSPATH="$YUPATH/bundle/c-support"
+test -d "$CSPATH" || mkdir -p "$CSPATH" && cp -vi bundle/c-support/*
+"$CSPATH"

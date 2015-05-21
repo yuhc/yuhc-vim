@@ -43,6 +43,7 @@
 
     " C/C++
     Plugin 'Valloric/YouCompleteMe'
+    Plugin 'vim-scripts/c.vim'
 
 
 " }
