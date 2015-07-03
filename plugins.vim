@@ -40,6 +40,9 @@
     Plugin 'junegunn/vim-easy-align'
     Plugin 'ggreer/the_silver_searcher'
     Plugin 'scrooloose/nerdcommenter'
+    Plugin 'vim-scripts/perl-support.vim'
+    Plugin 'vim-scripts/latex-support.vim'
+    Plugin 'vim-scripts/matlab.vim'
 
     " C/C++
     Plugin 'Valloric/YouCompleteMe'
