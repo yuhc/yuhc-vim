@@ -18,7 +18,7 @@
 
     " Load external settings
     set exrc
-    set secure
+    " set secure
 
     " Set Yuhc Vim Configuration path
     let $YUPATH=$HOME."/.yuhc-vim"
