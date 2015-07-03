@@ -48,6 +48,16 @@ separated vim files for specific needs.
 * `abbreviations.vim`, define abbreviations
 * `custom.vim`, define custom settings
 
+Requirement
+-----------
+
+* For Ubuntu users
+```
+sudo apt-get install cmake autotools-dev automake
+sudo apt-get install python-dev python3-dev libpcre3-dev liblzma-dev libclang-dev
+```
+
+Most of them are installed for the plugin "YouCompleteMe".
 
 Colors
 ------
