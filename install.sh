@@ -29,9 +29,9 @@ vim +PluginInstall +qall
 
 echo "# Installing Vim plugins customizations"
 echo "# - YouCompleteMe"
-$YUPATH/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
+YCM_CORES=1 python $YUPATH/bundle/YouCompleteMe/install.py --clang-completer --system-libclang
 YCMPATH="$YUPATH/bundle/YouCompleteMe"
-test -d "$YCMPATH" || mkdir -p "$YCMPATH" && cp -vi $SCPATH/bundle/YouCompleteMe/* "$YCMPATH"
+test -d "$YCMPATH" || mkdir -p "$YCMPATH" && cp -vi $SCPATH/bundle/YouCompleteMe/.ycm_extra_conf.py "$YCMPATH"
 
 echo "# - MatchTag custom filetypes"
 FTPATH="$YUPATH/bundle/MatchTag/ftplugin"
