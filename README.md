@@ -86,6 +86,14 @@ I need them.
 
 `yuhc-vim` currently contains the following Vim plugins.
 
+### YouCompleteMe
+
+If you encounter **Using external libclang: TEMP-NOTFOUND** error, please follow [Issue 28](https://github.com/Valloric/YouCompleteMe/issues/28) to solve it.
+
+In some systems, `libclang.so` lays in (e.g.) `/usr/lib/llvm-3.4/lib`.
+The most convenient way is to add this path into `~/.bashrc`, and
+`source ~/.bashrc`. Then reinstall this plugin.
+
 ### NERDTree
 
 The NERD tree allows you to explore your filesystem and to open files
