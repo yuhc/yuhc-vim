@@ -43,10 +43,15 @@
     Plugin 'vim-scripts/perl-support.vim'
     Plugin 'vim-scripts/latex-support.vim'
     Plugin 'vim-scripts/matlab.vim'
+    Plugin 'MikeCoder/markdown-preview.vim'
+    map <leader>m :MarkdownPreview GitHub<CR>
 
     " C/C++
     Plugin 'Valloric/YouCompleteMe'
     Plugin 'vim-scripts/c.vim'
+
+    " Convert
+    Plugin 'vim-scripts/vim-orgmode'
 
 
 " }

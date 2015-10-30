@@ -154,6 +154,18 @@ others
 
 **Repository:** [https://github.com/honza/vim-snippets](https://github.com/honza/vim-snippets)
 
+### markdown-preview
+
+Yet another vim markdown preview plugin. When you want to preview it in html you just use `:MarkdownPreview defult` to show your doc in your browser. If you want to change your style, you just use `:MarkdownPreview GitHub` in github style markdown view
+
+**Repository:** [https://github.com/vim-scripts/markdown-preview.vim](https://github.com/vim-scripts/markdown-preview.vim)
+
+### vim-orgmode
+
+Text outlining and task management for Vim based on Emacs' Org-Mode.
+
+**Repository:** [https://github.com/vim-scripts/vim-orgmode](https://github.com/vim-scripts/vim-orgmode)
+
 
 Adding New Plugins
 ------------------
