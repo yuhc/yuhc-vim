@@ -22,6 +22,8 @@
     autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
     autocmd InsertLeave * match ExtraWhitespace /\s\+$/
     autocmd BufWinLeave * call clearmatches()
+    autocmd BufWinEnter * let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
+    autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
     augroup HiglightTODO
     autocmd!
