@@ -31,3 +31,7 @@
     augroup END
 
 " }
+
+" Spelling Check {
+    setlocal spell spelllang=en_us
+" }
