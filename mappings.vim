@@ -72,6 +72,27 @@
     """ Start interactive EasyAlign for a motion/text object (e.g. gaip)
     nmap ga <Plug>(EasyAlign)
 
+    " Tabs control
+    """ <C-t> create a new tab
+    nnoremap <C-t>                :tabnew<Space>
+    inoremap <C-t> <Esc>          :tabnew<Space>
+    """ <C-Tab> next tab
+    noremap  <C-Tab>              :<C-U>tabnext<CR>
+    inoremap <C-Tab> <C-\><C-N>   :tabnext<CR>
+    cnoremap <C-Tab> <C-C>        :tabnext<CR>
+    """ <C-SHIFT-Tab> previous tab
+    noremap  <C-S-Tab>            :<C-U>tabprevious<CR>
+    inoremap <C-S-Tab> <C-\><C-N> :tabprevious<CR>
+    cnoremap <C-S-Tab> <C-C>      :tabprevious<CR>
+    """ vim key-mappings
+    nnoremap th  :tabfirst<CR>
+    nnoremap tj  :tabnext<CR>
+    nnoremap tk  :tabprev<CR>
+    nnoremap tl  :tablast<CR>
+    nnoremap tt  :tabedit<Space>
+    nnoremap tn  :tabnew<CR>
+    nnoremap tm  :tabm<Space>
+    nnoremap td  :tabclose<CR>
 " }
 
 " End of mappings.vim
