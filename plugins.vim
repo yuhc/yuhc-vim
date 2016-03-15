@@ -49,6 +49,7 @@
     " C/C++
     Plugin 'Valloric/YouCompleteMe'
     Plugin 'vim-scripts/c.vim'
+    Plugin 'vim-scripts/cscope.vim'
 
     " Convert
     Plugin 'vim-scripts/vim-orgmode'

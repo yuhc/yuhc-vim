@@ -24,6 +24,11 @@ ln -vsf $YUPATH/.gvimrc $HOME/.gvimrc
 echo "# Installing Vundle"
 git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 
+echo "# Installing C-Scope"
+echo "## if you're not using Ubuntu, please install it before running
+the script"
+sudo apt-get install cscope &>/dev/null
+
 echo "# Installing Vim plugins using Vundle"
 vim +PluginInstall +qall
 
@@ -45,3 +50,4 @@ make install
 echo "# - c-support (c.vim)"
 CSPATH="$YUPATH/bundle/c-support"
 test -d "$CSPATH" || mkdir -p "$CSPATH" && cp -vi $SCPATH/bundle/c-support/* "$CSPATH"
+
