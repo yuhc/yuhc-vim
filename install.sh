@@ -51,3 +51,7 @@ echo "# - c-support (c.vim)"
 CSPATH="$YUPATH/bundle/c-support"
 test -d "$CSPATH" || mkdir -p "$CSPATH" && cp -vi $SCPATH/bundle/c-support/* "$CSPATH"
 
+echo "# - customized mappings"
+MAPATH="$YUPATH/bundle/mappings"
+test -d "$MAPATH" || mkdir -p "$MAPATH" && cp -vir $SCPATH/bundle/mappings/* "$MAPATH"
+

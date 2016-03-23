@@ -37,6 +37,8 @@
 
 " Key Mappings {
 
+    let $MAPDIR=$HOME."/.yuhc-vim/bundle/mappings"
+
     "Map Leader key
     let mapleader = ","
 
@@ -63,8 +65,8 @@
     map <Leader>P Oprint("variable=%s" % variable)<Esc>
 
     """ Reformat text
-    map <Leader>f gq}
-    map <Leader>F gqG
+    "map <Leader>f gq}
+    "map <Leader>F gqG
 
     " Reformat codes
     """ Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
@@ -93,6 +95,10 @@
     nnoremap tn  :tabnew<CR>
     nnoremap tm  :tabm<Space>
     nnoremap td  :tabclose<CR>
+
+    " CScope
+    source $MAPDIR/cscope_maps.vim
+
 " }
 
 " End of mappings.vim

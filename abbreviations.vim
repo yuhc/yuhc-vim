@@ -14,8 +14,8 @@
 " Abbreviations {
 
     " Personal Data {
-        iabbrev DD Danilo Dellaquila
-        iabbrev KG K-Gigas Computers S.L.
+        iabbrev HY Hangchen Yu
+        iabbrev UT University of Texas at Austin
     " }
 
     " Code Samples {
@@ -23,7 +23,7 @@
     " }
 
     " Generic text {
-        iabbrev CP Copyright 2014, Danilo Dellaquila, K-Gigas Computers S.L.
+        iabbrev CP Copyright 2016, Hangchen Yu, UT Austin.
     " }
 
 " }
