@@ -55,6 +55,7 @@ Requirement
 ```
 sudo apt-get install cmake autotools-dev automake
 sudo apt-get install python-dev python3-dev libpcre3-dev liblzma-dev libclang-dev
+sudo apt-get install cscope
 ```
 
 Most of them are installed for the plugin "YouCompleteMe".
