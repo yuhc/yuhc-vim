@@ -40,8 +40,9 @@
     nmap <SPACE> <SPACE>:noh<CR>
 
     " Spell Checking
-    set nospell
-    set spelllang=en,es,it
+    set spell spelllang=en_us
+    "set nospell
+    "set spelllang=en,es,it
     set spellsuggest=5
 
     " Setup Vundle Support {
