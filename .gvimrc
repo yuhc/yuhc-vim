@@ -25,8 +25,8 @@
 "colorscheme spiderweblight
 "colorscheme solarized
 "colorscheme summerfruit256
-colorscheme pyte
-set background=light
+colorscheme luna
+set background=dark
 
 " Enable mouse in a windows
 set mouse=a

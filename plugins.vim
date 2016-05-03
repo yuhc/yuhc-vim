@@ -54,6 +54,8 @@
     " Convert
     Plugin 'vim-scripts/vim-orgmode'
 
+    " Theme
+    Plugin 'godlygeek/csapprox'
 
 " }
 

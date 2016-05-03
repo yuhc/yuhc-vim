@@ -111,8 +111,9 @@
 " Vim UI {
 
     " Color Scheme and Background
-    colorscheme default
+    "colorscheme default
     "set background=light
+    colorscheme buddy
     set background=dark
 
     " Statusline
