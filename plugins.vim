@@ -57,6 +57,9 @@
     " Theme
     Plugin 'godlygeek/csapprox'
 
+    " Environment
+    Plugin 'Shougo/vimshell.vim'
+
 " }
 
 " End of plugins.vim

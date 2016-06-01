@@ -76,6 +76,12 @@ few years ago I wrote a couple of colorscheme files, one for a light and
 another one for a dark background, you can find them inside the
 directory `colors`.
 
+Key Mappings
+------------
+
+* NERDTree: `<F9>`
+    Help: `:help NERDTree`
+* VimShell: `:VimShell`
 
 Plugins
 -------
@@ -167,6 +173,9 @@ Text outlining and task management for Vim based on Emacs' Org-Mode.
 
 **Repository:** [https://github.com/vim-scripts/vim-orgmode](https://github.com/vim-scripts/vim-orgmode)
 
+### VimShell
+
+*VimShell* is an extreme shell that doesn't depend on external shells.
 
 Adding New Plugins
 ------------------

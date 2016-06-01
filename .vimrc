@@ -122,6 +122,7 @@
 
     " Line numbers
     set number
+    "highlight LineNr ctermfg=grey
 
     " Set visual bell
     set vb
