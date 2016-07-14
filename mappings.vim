@@ -96,6 +96,11 @@
     nnoremap tm  :tabm<Space>
     nnoremap td  :tabclose<CR>
 
+    " Toggle paste mode
+    nnoremap <F3> :set invpaste paste?<CR>
+    set pastetoggle=<F3>
+    set showmode
+
     " CScope
     source $MAPDIR/cscope_maps.vim
 
