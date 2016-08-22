@@ -96,6 +96,14 @@
     nnoremap tm  :tabm<Space>
     nnoremap td  :tabclose<CR>
 
+    """ Navigate between split panes
+    nnoremap gh <C-W><C-H>
+    nnoremap gj <C-W><C-J>
+    nnoremap gk <C-W><C-K>
+    nnoremap gl <C-W><C-L>
+    nnoremap g\ <C-W><C-V>
+    nnoremap g- <C-W><C-S>
+
     " Toggle paste mode
     nnoremap <F3> :set invpaste paste?<CR>
     set pastetoggle=<F3>
