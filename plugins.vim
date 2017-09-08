@@ -47,7 +47,8 @@
     map <leader>m :MarkdownPreview GitHub<CR>
 
     " C/C++
-    Plugin 'Valloric/YouCompleteMe'
+    " Plugin 'Valloric/YouCompleteMe'
+    Plugin 'ajh17/VimCompletesMe'
     Plugin 'vim-scripts/c.vim'
     Plugin 'vim-scripts/cscope.vim'
 
