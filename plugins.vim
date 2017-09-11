@@ -45,6 +45,7 @@
     Plugin 'vim-scripts/matlab.vim'
     Plugin 'MikeCoder/markdown-preview.vim'
     map <leader>m :MarkdownPreview GitHub<CR>
+    Plugin 'Chiel92/vim-autoformat'
 
     " C/C++
     " Plugin 'Valloric/YouCompleteMe'

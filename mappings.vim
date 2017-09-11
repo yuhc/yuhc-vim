@@ -109,6 +109,11 @@
     set pastetoggle=<F3>
     set showmode
 
+    " Auto format codes
+    noremap <F4> :Autoformat<CR>
+    """ formatt upon saving
+    au BufWrite * :Autoformat
+
     " CScope
     source $MAPDIR/cscope_maps.vim
 

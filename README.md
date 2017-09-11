@@ -58,8 +58,6 @@ sudo apt-get install python-dev python3-dev libpcre3-dev liblzma-dev libclang-de
 sudo apt-get install cscope
 ```
 
-Most of them are installed for the plugin "YouCompleteMe".
-
 Colors
 ------
 
@@ -82,6 +80,7 @@ Key Mappings
 * NERDTree: `<F9>`
     Help: `:help NERDTree`
 * VimShell: `:VimShell`
+* AutoFormat: `<F4>`
 
 Plugins
 -------
