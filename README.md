@@ -56,6 +56,7 @@ Requirement
 sudo apt-get install cmake autotools-dev automake
 sudo apt-get install python-dev python3-dev libpcre3-dev liblzma-dev libclang-dev
 sudo apt-get install cscope
+sudo apt-get install clang-format astyle python-autopep8 
 ```
 
 Colors
