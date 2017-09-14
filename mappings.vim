@@ -112,7 +112,7 @@
     " Auto format codes
     noremap <F4> :Autoformat<CR>
     """ formatt upon saving
-    au BufWrite * :Autoformat
+    """ au BufWrite * :Autoformat
 
     " CScope
     source $MAPDIR/cscope_maps.vim
