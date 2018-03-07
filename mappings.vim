@@ -116,6 +116,7 @@
 
     " CScope
     source $MAPDIR/cscope_maps.vim
+    nmap <F8> :TagbarToggle<CR>
 
 " }
 

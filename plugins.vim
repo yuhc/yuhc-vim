@@ -52,6 +52,7 @@
     Plugin 'ajh17/VimCompletesMe'
     Plugin 'vim-scripts/c.vim'
     Plugin 'vim-scripts/cscope.vim'
+    Plugin 'majutsushi/tagbar'
 
     " Convert
     Plugin 'vim-scripts/vim-orgmode'
