@@ -52,6 +52,7 @@
     Plugin 'ajh17/VimCompletesMe'
     Plugin 'vim-scripts/c.vim'
     Plugin 'vim-scripts/cscope.vim'
+    Plugin 'vim-scripts/autoload_cscope.vim'
     Plugin 'majutsushi/tagbar'
 
     " Convert
