@@ -69,8 +69,8 @@
 " Formatting {
 
     " Set maximum width of text line
-    set textwidth=72
-    set colorcolumn=110
+    set textwidth=110
+    set colorcolumn=120
     highlight ColorColumn ctermbg=darkgray
 
     " Tabs settings
