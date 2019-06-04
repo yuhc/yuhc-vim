@@ -46,6 +46,7 @@
     Plugin 'MikeCoder/markdown-preview.vim'
     map <leader>m :MarkdownPreview GitHub<CR>
     Plugin 'Chiel92/vim-autoformat'
+    Plugin 'rust-lang/rust.vim'
 
     " C/C++
     " Plugin 'Valloric/YouCompleteMe'
