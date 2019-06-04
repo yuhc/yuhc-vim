@@ -22,6 +22,7 @@ augroup filetypedetect
   au! BufRead,BufNewFile *.md       setfiletype markdown
   au! BufRead,BufNewFile *.wiki     setfiletype moin
   "au! BufNewFile,BufRead *.wiki     setfiletype Wikipedia
+  au! BufRead,BufNewFile *.rs       setfiletype rust
 augroup END
 
 " C Language
