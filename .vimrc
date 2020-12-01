@@ -11,6 +11,12 @@
 "
 "##############################################################"
 
+" Source Facebook tempate {
+
+source $ADMIN_SCRIPTS/master.vimrc
+
+" }
+
 " General Settings {
 
     " We use Vim settings
@@ -75,12 +81,12 @@
 
     " Tabs settings
     set expandtab
-    set tabstop=4
-    set shiftwidth=4
+    set tabstop=2
+    set shiftwidth=2
 
     " Automatic Indentation
     set autoindent
-    set shiftwidth=4
+    set shiftwidth=2
     let g:autoformat_autoindent = 0
     let g:autoformat_retab = 0
     let g:autoformat_remove_trailing_spaces = 1
